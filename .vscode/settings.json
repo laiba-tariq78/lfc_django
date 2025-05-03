@@ -1,0 +1,5 @@
+{
+    // Path to the Python interpreter in your Django virtual environment
+    "python.pythonPath": "C:\\Users\tariq\\.virtualenvs\\django_test-LMaXb-eQ\\bin\\python"
+   
+}
