@@ -15,7 +15,7 @@ class Collection(models.Model):
 
 
 class Product(models.Model):
-    sku =models.CharField(max_length=255, primary_key=True) #if not using default primary key 
+    # sku =models.CharField(max_length=255, primary_key=True) #if not using default primary key 
     title= models.CharField(max_length=255)
     slug=models.SlugField(unique=True, null=True) #if not null added later so set default ='-
     description = models.TextField()
